@@ -1,0 +1,8 @@
+<header class="main-header clearfix" ng-class="{loggedin: loggedin()}">
+    <a class="login" ng-if="state.is('root.home')" ng-click="showLoginUser()">
+      Login
+    </a>
+    <a class="login" ng-if="state.is('root.profile')" ng-click="logout()">
+      Logout
+    </a>
+</header>

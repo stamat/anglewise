@@ -1,0 +1,38 @@
+<div id="modal-login-user" class="modal">
+  <div class="backdrop"></div>
+  <div class="content table">
+    <div class="cell">
+      <div class="window green-line">
+        <div class="window-header">
+          <h1>Welcome to anglewise!</h1>
+          <div class="sub">Please sign-in or create an account.</div>
+          <a class="close" ng-click="hide()"><i class="icon-close-white"></i></a>
+        </div>
+        <div class="window-body">
+          <div class="second-title">
+            user login
+          </div>
+          <div class="window-content">
+            <div class="input-field compact full-span">
+              <label>Username</label>
+              <input type="text" placeholder="Enter username" />
+            </div>
+            <div class="input-field compact full-span">
+              <label>Password</label>
+              <input type="text" placeholder="Enter password" />
+            </div>
+            <div class="row">
+              Forgot <a>username</a> or <a>password</a>?
+            </div>
+            <div class="confirmation-button">
+              <a class="button green big full-span responsive" ng-click="signin()">sign in<i class="button-arrow-right-white"></i></a>
+            </div>
+            <div class="row">
+              <a href="#!/register-patient">Don’t have a login? Create a User Account</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

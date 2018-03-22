@@ -1,0 +1,20 @@
+{
+  "name": "anglewise",
+  "homepage": "https://github.com/stamat/liquorwise",
+  "authors": [
+    "Nikola Stamatovic <nikola@otilito.com>"
+  ],
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+        "modernizr": "2.8.2",
+        "icheck": "latest",
+        "jquery-ui": "latest",
+        "select2": "latest"
+    },
+    "overrides": {
+        "modernizr": {
+            "main": "./modernizr.js"
+        }
+    }
+}
